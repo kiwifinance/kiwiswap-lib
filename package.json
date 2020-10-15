@@ -38,7 +38,6 @@
     "test": "mocha",
     "prepublishOnly": "yarn test",
     "build": "tsdx build",
-    "start": "tsdx watch",
     "rename": "renamer --find '/(\\-)(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)/' --replace '' './*.tgz'",
     "pack": "npm pack",
     "pack:rename": "npm-run-all --sequential pack rename",
