@@ -19,4 +19,3 @@ library Babylonian {
         // else z = 0
     }
 }
-
